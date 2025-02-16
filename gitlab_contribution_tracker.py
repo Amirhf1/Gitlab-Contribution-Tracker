@@ -1,9 +1,9 @@
 import gitlab
 from datetime import datetime
 
-GITLAB_URL = 'https://git.arvaninternal.ir' 
-PRIVATE_TOKEN = 'xtGyyyxzfFVGSMTDr_te'
-YOUR_USERNAME = 'AmirHossein Fallah'
+GITLAB_URL = 'https://git.internal.ir' 
+PRIVATE_TOKEN = 'xxxx'
+YOUR_USERNAME = 'YOUR_USERNAME'
 
 try:
     gl = gitlab.Gitlab(GITLAB_URL, private_token=PRIVATE_TOKEN)
